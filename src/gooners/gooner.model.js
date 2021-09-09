@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const goonerSchema = mongoose.Schema({
-    player: {
+    name: {
         type: String,
         required: true,
         unique: true,

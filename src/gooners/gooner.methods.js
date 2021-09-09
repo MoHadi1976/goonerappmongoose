@@ -1,8 +1,8 @@
-const Gooner = require("./gooner.model");
+const Gunner = require("./gooner.model");
 
-exports.addPLayer = async (newGooner) => {
+exports.addPlayer = async (newGunner) => {
     try {
-        const player = new Gooner(newGooner);
+        const player = new Gunner(newGunner);
         await player.save();
     } catch (error) {
         console.log(error)
