@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const goonerSchema = mongoose.Schema({
+const gunnerSchema = mongoose.Schema({
     name: {
         type: String,
         required: true,
@@ -17,6 +17,6 @@ const goonerSchema = mongoose.Schema({
 
 });
 
-const Gooner = mongoose.model("Gooner", goonerSchema);
+const Gunner = mongoose.model("Gunner", gunnerSchema);
 
-module.exports = Gooner;
+module.exports = Gunner;
