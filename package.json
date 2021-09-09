@@ -1,0 +1,25 @@
+{
+  "name": "goonerappmongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoHadi1976/goonerappmongoose.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/MoHadi1976/goonerappmongoose/issues"
+  },
+  "homepage": "https://github.com/MoHadi1976/goonerappmongoose#readme"
+}
