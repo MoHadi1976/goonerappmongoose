@@ -1,6 +1,7 @@
 require("./db/connection");
 const mongoose = require("mongoose");
-const {addPlayer} = require("./gooners/gooner.methods");
+const {addPlayer, listPlayers} = require("./gooners/gooner.methods");
+const Gunner = require("./gooners/gooner.model");
 const command = process.argv[2];
 
 const app = async () => {
@@ -10,6 +11,8 @@ const app = async () => {
             team: process.argv[4],
             gooner: process.argv[5]
         })
+    }else if (command === "list"){
+        await listPlayers(Gunner)
     }
     mongoose.disconnect();
 }

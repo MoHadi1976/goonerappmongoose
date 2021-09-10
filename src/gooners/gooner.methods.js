@@ -8,3 +8,8 @@ exports.addPlayer = async (newGunner) => {
         console.log(error)
     }
 }
+
+exports.listPlayers = async () => {
+    const list = await Gunner.find()
+    console.log(list)
+};
